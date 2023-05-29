@@ -1,5 +1,6 @@
 import { Component, Input, Output, EventEmitter } from '@angular/core';
 import { Todo } from 'src/app/models/todo.model';
+import { trigger, state, style, transition } from '@angular/animations';
 
 @Component({
   selector: 'app-todo-item',

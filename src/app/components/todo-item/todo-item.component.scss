@@ -34,7 +34,13 @@
       word-break: break-all;
       padding: 15px 15px 15px 60px;
       display: block;
-      font-size: 20px;
+      font-size: 25px;
+
+      &.completed {
+        font-size: 19px;
+        text-decoration: line-through;
+        color: lightgrey;
+      }
     }
   }
 
